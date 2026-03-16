@@ -2,6 +2,10 @@
 
 把 LMArena 文本榜单、OpenRouter 价格和 OpenRouter endpoint latency/TPS 聚合到一个白底、苹果风格的对比站点里。
 
+## 页面预览
+
+![LLM Arena 散点图预览](docs/readme/llm-arena-scatter-preview.png)
+
 ## 本地运行
 
 ```bash
