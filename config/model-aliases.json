@@ -1,0 +1,25 @@
+{
+  "claude-opus-4-6": ["anthropic/claude-opus-4.6", "anthropic/claude-opus-4-6"],
+  "claude-opus-4-6-thinking": [
+    "anthropic/claude-opus-4.6-thinking",
+    "anthropic/claude-opus-4-6-thinking"
+  ],
+  "claude-sonnet-4": ["anthropic/claude-sonnet-4"],
+  "claude-sonnet-4-thinking": ["anthropic/claude-sonnet-4-thinking"],
+  "gemini-3.1-pro-preview": [
+    "google/gemini-3.1-pro-preview",
+    "google/gemini-3.1-pro"
+  ],
+  "gemini-3.1-flash": ["google/gemini-3.1-flash"],
+  "gpt-5": ["openai/gpt-5"],
+  "gpt-5-mini": ["openai/gpt-5-mini"],
+  "gpt-5.1": ["openai/gpt-5.1"],
+  "gpt-5.2": ["openai/gpt-5.2", "openai/gpt-5.2-chat"],
+  "gpt-5.4": ["openai/gpt-5.4"],
+  "gpt-4.1": ["openai/gpt-4.1"],
+  "o4-mini": ["openai/o4-mini"],
+  "deepseek-r1": ["deepseek/deepseek-r1"],
+  "deepseek-v3.1": ["deepseek/deepseek-chat-v3.1", "deepseek/deepseek-v3.1"],
+  "glm-5-turbo": ["z-ai/glm-5-turbo"],
+  "qwen3-235b-a22b": ["qwen/qwen3-235b-a22b"]
+}

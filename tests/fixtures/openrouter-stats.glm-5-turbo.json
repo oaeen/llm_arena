@@ -1,0 +1,181 @@
+{
+  "data": [
+    {
+      "id": "9ce3b132-3a17-4fea-8092-0e8e519ed32b",
+      "name": "Z.AI | z-ai/glm-5-turbo-20260315",
+      "context_length": 202752,
+      "model": {
+        "slug": "z-ai/glm-5-turbo",
+        "hf_slug": "",
+        "updated_at": "2026-03-15T14:55:14.787666+00:00",
+        "created_at": "2026-03-15T14:06:13.880167+00:00",
+        "hf_updated_at": null,
+        "name": "Z.ai: GLM 5 Turbo",
+        "short_name": "GLM 5 Turbo",
+        "author": "z-ai",
+        "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows involving long execution chains, with improved complex instruction decomposition, tool use, scheduled and persistent execution, and overall stability across extended tasks.",
+        "model_version_group_id": null,
+        "context_length": 202752,
+        "input_modalities": ["text"],
+        "output_modalities": ["text"],
+        "has_text_output": true,
+        "group": "Other",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": "",
+        "promotion_message": "",
+        "routing_error_message": "",
+        "permaslug": "z-ai/glm-5-turbo-20260315",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": "<think>",
+          "end_token": "</think>",
+          "default_reasoning_enabled": true,
+          "reasoning_return_mechanism": "reasoning-content"
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": "<think>",
+            "end_token": "</think>",
+            "default_reasoning_enabled": true,
+            "reasoning_return_mechanism": "reasoning-content"
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": 1,
+          "top_p": 0.95,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [],
+        "quick_start_example_type": "reasoning",
+        "is_trainable_text": null,
+        "is_trainable_image": null
+      },
+      "model_variant_slug": "z-ai/glm-5-turbo",
+      "model_variant_permaslug": "z-ai/glm-5-turbo-20260315",
+      "adapter_name": "ZAIAdapter",
+      "provider_name": "Z.AI",
+      "provider_info": {
+        "name": "Z.AI",
+        "displayName": "Z.ai",
+        "slug": "z-ai",
+        "baseUrl": "https://api.z.ai/api/paas/v4",
+        "dataPolicy": {
+          "training": false,
+          "trainingOpenRouter": false,
+          "retainsPrompts": false,
+          "canPublish": false,
+          "termsOfServiceURL": "https://chat.z.ai/legal-agreement/terms-of-service",
+          "privacyPolicyURL": "https://chat.z.ai/legal-agreement/privacy-policy"
+        },
+        "headquarters": "SG",
+        "datacenters": ["SG"],
+        "regionOverrides": {},
+        "hasChatCompletions": true,
+        "hasCompletions": false,
+        "isAbortable": true,
+        "moderationRequired": false,
+        "editors": [],
+        "owners": [],
+        "adapterName": "ZAIAdapter",
+        "statusPageUrl": null,
+        "byokEnabled": true,
+        "icon": {
+          "url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://z.ai/model-api&size=256",
+          "className": "invert-0 dark:invert"
+        },
+        "ignoredProviderModels": [],
+        "sendClientIp": false,
+        "pricingStrategy": "openai_chat_completions"
+      },
+      "provider_display_name": "Z.ai",
+      "provider_slug": "z-ai",
+      "provider_model_id": "GLM-5-Turbo",
+      "quantization": "unknown",
+      "variant": "standard",
+      "is_free": false,
+      "can_abort": true,
+      "max_prompt_tokens": null,
+      "max_completion_tokens": 131072,
+      "max_tokens_per_image": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "tools",
+        "tool_choice",
+        "response_format"
+      ],
+      "is_byok": false,
+      "moderation_required": false,
+      "data_policy": {
+        "training": false,
+        "trainingOpenRouter": false,
+        "retainsPrompts": false,
+        "canPublish": false,
+        "termsOfServiceURL": "https://chat.z.ai/legal-agreement/terms-of-service",
+        "privacyPolicyURL": "https://chat.z.ai/legal-agreement/privacy-policy"
+      },
+      "pricing": {
+        "prompt": "0.00000096",
+        "completion": "0.0000032",
+        "input_cache_read": "0.000000192",
+        "discount": 0.2,
+        "line_items": []
+      },
+      "variable_pricings": [],
+      "line_items": [],
+      "pricing_json": {
+        "openai:prompt_tokens": "1.2e-6",
+        "openai:completion_tokens": "4e-6",
+        "openai:cached_prompt_tokens": "0.24e-6"
+      },
+      "pricing_version_id": "e774fc74-80f0-454e-9179-76d90c69d197",
+      "is_hidden": false,
+      "is_deranked": false,
+      "is_disabled": false,
+      "supports_tool_parameters": true,
+      "supports_reasoning": true,
+      "supports_multipart": true,
+      "limit_rpm": null,
+      "limit_rpd": null,
+      "limit_rpm_cf": null,
+      "has_completions": false,
+      "has_chat_completions": true,
+      "features": {
+        "supports_tool_choice": {
+          "literal_none": true,
+          "literal_auto": true,
+          "literal_required": true,
+          "type_function": true
+        }
+      },
+      "provider_region": null,
+      "deprecation_date": null,
+      "stats": {
+        "endpoint_id": "9ce3b132-3a17-4fea-8092-0e8e519ed32b",
+        "p50_throughput": 28,
+        "p75_throughput": 42,
+        "p90_throughput": 57,
+        "p95_throughput": 68,
+        "p99_throughput": 97.09000000000015,
+        "p50_latency": 3419.5,
+        "p75_latency": 6223.75,
+        "p90_latency": 14410.800000000007,
+        "p95_latency": 20390.649999999998,
+        "p99_latency": 40155.68000000002,
+        "request_count": 32297,
+        "window_minutes": 30
+      }
+    }
+  ]
+}

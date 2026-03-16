@@ -1,0 +1,4 @@
+.playwright-cli
+data/runtime/snapshots
+tests/fixtures/lmarena-overall.html
+tests/fixtures/*.json

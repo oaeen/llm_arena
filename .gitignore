@@ -1,0 +1,11 @@
+node_modules
+.next
+coverage
+playwright-report
+test-results
+dist
+.DS_Store
+.env.local
+.playwright-cli
+data/runtime/snapshots/*.json
+!data/runtime/snapshots/.gitkeep
